@@ -1,0 +1,27 @@
+.navbar{
+  background-color: black;
+  color:white;
+  height: 56px;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+}
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+}
+.post-details{
+  display: flex;
+  padding: 0 5% 0 5%;
+  justify-content: space-between;
+}
+.link{
+  text-decoration: none !important;
+  color: black;
+}
+.link:hover{
+  color:  black;
+}
