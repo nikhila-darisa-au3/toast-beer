@@ -1,7 +1,7 @@
 .navbar{
-  background-color: black;
-  color:white;
+  background-color: teal;
   height: 56px;
+  border-bottom: 1px solid #efeaea
 }
 .navbar ul{
   display: flex;
@@ -13,6 +13,12 @@
   color: white;
   text-decoration: none;
 }
+.logo{
+  color: brown !important;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
+}
 .post-details{
   display: flex;
   padding: 0 5% 0 5%;
@@ -23,5 +29,31 @@
   color: black;
 }
 .link:hover{
-  color:  black;
+  /* color:  black; */
+}
+.search{
+  height: 40px;
+}
+.input-border{
+  margin-top: 5px;
+  border-radius: 25px;
+  text-transform: none;
+  cursor: pointer;
+  background-color: white;
+}
+.header{
+  display: flex;
+  justify-content: flex-end;
+  /* padding:0% 10% */
+}
+.comment-box{
+  width:100%;
+  border-radius: 25px;
+  text-transform: none;
+  border: 1px solid black;
+  padding:6px
+}
+.comment-text{
+  margin:0;
+  padding-top:0
 }

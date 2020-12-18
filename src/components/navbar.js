@@ -6,7 +6,8 @@ class Navbar extends React.Component {
         return (
             <div className="navbar">
                 <ul>
-                    <li><Link to='/' className="mr-3">Home</Link></li>
+                    <li><Link to='/' className="logo">Toast A Bear</Link></li>
+                    <li><Link to='/' className="ml-5 mr-3">Home</Link></li>
                     <li><Link to='/dashboard'>Dashboard</Link></li>
                 </ul>
             </div>
